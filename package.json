@@ -6,6 +6,7 @@
   "author": "jdLYNC <joshlynch@live.co.uk>",
   "license": "MIT",
   "dependencies": {
-    "alexa-sdk": "^1.0.20"
+    "alexa-sdk": "^1.0.20",
+    "axios": "^0.17.1"
   }
 }

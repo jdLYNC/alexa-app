@@ -1,4 +1,5 @@
 const Alexa = require('alexa-sdk');
+const Axios = require('axios');
 
 const handlers = {
   'LaunchRequest': function() {
@@ -7,7 +8,12 @@ const handlers = {
 
   'GetCapitalIntent': function() {
     const country = this.event.request.intent.slots.country.value;
-    this.emit(':tell', `You asked for the capital of ${country}`);
+
+    Axios
+      .get(`https://restcountries.eu/rest/v2/name/${country}?fields=capital`)
+      .then(res => {
+        this.emit(':tell', `The capital of ${country} is ${res.data[0].capital}`);
+      });
   }
 };
 
