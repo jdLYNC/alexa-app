@@ -1,9 +1,16 @@
 {
   "intents": [{
+    "intent": "SelectModeIntent",
+    "slots": [{
+      "name": "mode",
+      "type": "MODES"
+      }]
+    },
+    {
     "intent": "GetCapitalIntent",
     "slots": [{
       "name": "country",
-      "type": "AMAZON.COUNTRY"
+      "type": "AMAZON.Country"
       }]
     }]
 }

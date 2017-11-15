@@ -6,6 +6,11 @@ const handlers = {
     this.emit(':ask', 'Welcome to Geo Facts, what would you like to do?');
   },
 
+  'SelectModeIntent': function() {
+    const mode = this.event.request.intent.slots.mode.value;
+    this.emit(':tell', `You have selected ${mode}`);
+  },
+
   'GetCapitalIntent': function() {
     const country = this.event.request.intent.slots.country.value;
 
