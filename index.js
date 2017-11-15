@@ -6,7 +6,8 @@ const handlers = {
   },
 
   'GetCapitalIntent': function() {
-    this.emit(':tell', 'You asked for a capital');
+    const country = this.event.request.intent.slots.country.value;
+    this.emit(':tell', `You asked for the capital of ${country}`);
   }
 };
 

@@ -1,4 +1,3 @@
 GetCapitalIntent what is the capital of {country}
 GetCapitalIntent tell me the capital of {country}
 GetCapitalIntent get the capital of {country}
-GetCapitalIntent get capital

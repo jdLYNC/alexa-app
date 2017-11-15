@@ -1,5 +1,9 @@
 {
   "intents": [{
-    "intent": "GetCapitalIntent"
+    "intent": "GetCapitalIntent",
+    "slots": [{
+      "name": "country",
+      "type": "AMAZON.COUNTRY"
+      }]
     }]
 }
