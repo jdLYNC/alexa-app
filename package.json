@@ -1,0 +1,11 @@
+{
+  "name": "alexa-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jdLYNC/alexa-app.git",
+  "author": "jdLYNC <joshlynch@live.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-sdk": "^1.0.20"
+  }
+}
