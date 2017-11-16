@@ -10,3 +10,9 @@ AskCapitalIntent test capitals
 AskCapitalIntent quiz me on capital cities
 AskCapitalIntent ask about capital cities
 AskCapitalIntent test capital cities
+
+AnswerIntent the answer is {city}
+AnswerIntent is the answer {city}
+AnswerIntent is it {city}
+AnswerIntent it is {city}
+AnswerIntent it's {city}
