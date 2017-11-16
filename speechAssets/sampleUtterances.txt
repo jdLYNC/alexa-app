@@ -3,3 +3,10 @@ SelectModeIntent {mode} me
 GetCapitalIntent what is the capital of {country}
 GetCapitalIntent tell me the capital of {country}
 GetCapitalIntent get the capital of {country}
+
+AskCapitalIntent quiz me on capitals
+AskCapitalIntent ask about capitals
+AskCapitalIntent test capitals
+AskCapitalIntent quiz me on capital cities
+AskCapitalIntent ask about capital cities
+AskCapitalIntent test capital cities

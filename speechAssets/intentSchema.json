@@ -12,5 +12,8 @@
       "name": "country",
       "type": "AMAZON.Country"
       }]
+    },
+    {
+    "intent": "AskCapitalIntent",
     }]
 }
