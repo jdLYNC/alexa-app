@@ -20,6 +20,15 @@
     "intent": "AMAZON.YesIntent"
     },
     {
+    "intent": "AMAZON.NoIntent"
+    },
+    {
+    "intent": "AMAZON.StopIntent"
+    },
+    {
+    "intent": "ChangeStateIntent"
+    },
+    {
     "intent": "AnswerIntent",
     "slots": [{
       "name": "city",

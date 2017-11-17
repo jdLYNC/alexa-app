@@ -16,3 +16,8 @@ AnswerIntent is the answer {city}
 AnswerIntent is it {city}
 AnswerIntent it is {city}
 AnswerIntent it's {city}
+AnswerIntent {city}
+
+ChangeStateIntent i want to change modes
+ChangeStateIntent change modes
+ChangeStateIntent let's do something else
